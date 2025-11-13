@@ -7,7 +7,7 @@ export default function Home() {
       <div className="bg-[#FFF9E9] px-4 py-8 text-center">
         <div className="mx-auto mb-6 w-32 h-32">
           <img
-            src="/images/chatgpt-20image-2012-20de-20nov.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2012%20de%20nov.%20de%202025%2C%2018_49_20-Photoroom-JyTk7Dnsd3mDLGDjbPU4xFROttlqXw.png"
             alt="Pet Nutrición Natural Logo"
             className="w-full h-full object-contain"
           />
@@ -74,7 +74,7 @@ export default function Home() {
           <div className="flex justify-center mb-1">
             <div className="w-24 h-24">
               <img
-                src="/images/chatgpt-20image-2012-20de-20nov.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2012%20de%20nov.%20de%202025%2C%2018_49_20-Photoroom-JyTk7Dnsd3mDLGDjbPU4xFROttlqXw.png"
                 alt="Pet Nutrición Natural Logo"
                 className="w-full h-full object-contain"
               />
@@ -202,7 +202,7 @@ export default function Home() {
             <div className="rounded-2xl bg-[#DBCCB3] p-6 text-gray-900">
               <div className="mb-4 aspect-[3/4] w-full rounded-lg overflow-hidden">
                 <img
-                  src="/images/chatgpt-20image-2012-20de-20nov.png"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2012%20de%20nov.%20de%202025%2C%2022_06_46%20%281%29-AdaUh7KzmewRWxu2sRJg2PgyMJyDN7.png"
                   alt="Mimando a tu gato con premios caseros"
                   className="w-full h-full object-cover"
                 />
@@ -347,38 +347,28 @@ export default function Home() {
 
       <section className="bg-[#FFF9E9] px-4 py-12">
         <div className="mx-auto max-w-4xl">
-          <div className="rounded-2xl bg-[#2E7D32] p-8 md:p-12">
-            <div className="flex justify-center mb-6">
-              <img
-                src="/images/selo-garantia-7-dias-small.png"
-                alt="Garantía 7 días - Riesgo Cero"
-                className="w-32 h-32 md:w-40 md:h-40"
-              />
-            </div>
-            <h2 className="text-balance text-center text-3xl font-bold text-white md:text-4xl mb-6">
-              ¡NOSOTROS ASUMIMOS LOS RIESGOS!
-            </h2>
+          <h2 className="text-balance text-center text-3xl font-bold text-gray-900 md:text-4xl mb-6">
+            ¡NOSOTROS ASUMIMOS LOS RIESGOS!
+          </h2>
 
-            <div className="max-w-2xl mx-auto text-center">
-              <p className="text-lg text-white leading-relaxed mb-4">
-                Si no te gusta el contenido del libro electrónico, te devolveremos todo tu dinero. Tendrás 7 días de
-                garantía para probar y aprobar el contenido.
-              </p>
-              <p className="text-lg text-white leading-relaxed font-semibold">
-                Sin embargo, estamos convencidos de que no será necesario, ya que sabemos toda la transformación que las
-                recetas pueden aportar a la vida de las mascotas.
-              </p>
-            </div>
-
-            <div className="mt-10 text-center">
-              <button className="animate-pulse-visible relative rounded-lg bg-[#F57C00] px-12 py-4 text-base font-extrabold text-black shadow-[0_0_0_4px_#DAF9E4] transition-transform">
-                <span className="absolute left-3 top-1/2 -translate-y-1/2 text-xs">🐾</span>
-                QUIERO APROVECHAR LA GARANTÍA
-                <span className="absolute right-3 top-1/2 -translate-y-1/2 text-xs">🐾</span>
-              </button>
-            </div>
+          <div className="max-w-2xl mx-auto text-center">
+            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              Si no te gusta el contenido del libro electrónico, te devolveremos todo tu dinero. Tendrás 7 días de
+              garantía para probar y aprobar el contenido.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed font-semibold">
+              Sin embargo, estamos convencidos de que no será necesario, ya que sabemos toda la transformación que las
+              recetas pueden aportar a la vida de las mascotas.
+            </p>
           </div>
-          {/* </CHANGE> */}
+
+          <div className="mt-10 text-center">
+            <button className="animate-pulse-visible relative rounded-lg bg-[#F57C00] px-12 py-4 text-base font-extrabold text-black shadow-[0_0_0_4px_#DAF9E4] transition-transform">
+              <span className="absolute left-3 top-1/2 -translate-y-1/2 text-xs">🐾</span>
+              QUIERO APROVECHAR LA GARANTÍA
+              <span className="absolute right-3 top-1/2 -translate-y-1/2 text-xs">🐾</span>
+            </button>
+          </div>
         </div>
       </section>
 
@@ -391,7 +381,7 @@ export default function Home() {
           <div className="space-y-4 mb-8">
             <div className="rounded-xl bg-white p-6 shadow-sm border border-gray-200">
               <h3 className="mb-2 font-bold text-gray-900">Después de la compra, ¿cómo puedo acceder al contenido?</h3>
-              <p className="text-sm text-gray-700 leading-relaxed mb-4">
+              <p className="text-sm text-gray-700 leading-relaxed">
                 Inmediatamente después de realizar el pago, recibirás en tu correo electrónico todas las instrucciones
                 de acceso. ¡Es muy fácil!
               </p>
