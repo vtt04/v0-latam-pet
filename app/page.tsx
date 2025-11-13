@@ -7,7 +7,7 @@ export default function Home() {
       <div className="bg-[#FFF9E9] px-4 py-8 text-center">
         <div className="mx-auto mb-6 w-32 h-32">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2012%20de%20nov.%20de%202025%2C%2018_49_20-Photoroom-JyTk7Dnsd3mDLGDjbPU4xFROttlqXw.png"
+            src="/images/chatgpt-20image-2012-20de-20nov.png"
             alt="Pet Nutrición Natural Logo"
             className="w-full h-full object-contain"
           />
@@ -74,7 +74,7 @@ export default function Home() {
           <div className="flex justify-center mb-1">
             <div className="w-24 h-24">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2012%20de%20nov.%20de%202025%2C%2018_49_20-Photoroom-JyTk7Dnsd3mDLGDjbPU4xFROttlqXw.png"
+                src="/images/chatgpt-20image-2012-20de-20nov.png"
                 alt="Pet Nutrición Natural Logo"
                 className="w-full h-full object-contain"
               />
@@ -132,7 +132,13 @@ export default function Home() {
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-2xl bg-[#2E7D32] p-6 text-white">
-              <div className="mb-4 aspect-[4/5] w-full rounded-lg bg-gray-200"></div>
+              <div className="mb-4 aspect-[4/5] w-full rounded-lg overflow-hidden">
+                <img
+                  src="/images/chatgpt-20image-2012-20de-20nov.png"
+                  alt="Mimando a tu gato con premios caseros"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="mb-2 text-base font-bold">Golosinas para tu gato</h3>
               <p className="text-sm leading-relaxed opacity-90">
                 Descubrirás, paso a paso, cómo preparar golosinas irresistibles, incluso sin tener experiencia. ¡A tu
@@ -202,7 +208,7 @@ export default function Home() {
             <div className="rounded-2xl bg-[#DBCCB3] p-6 text-gray-900">
               <div className="mb-4 aspect-[3/4] w-full rounded-lg overflow-hidden">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2012%20de%20nov.%20de%202025%2C%2022_06_46%20%281%29-AdaUh7KzmewRWxu2sRJg2PgyMJyDN7.png"
+                  src="/images/chatgpt-20image-2012-20de-20nov.png"
                   alt="Mimando a tu gato con premios caseros"
                   className="w-full h-full object-cover"
                 />
