@@ -200,7 +200,13 @@ export default function Home() {
 
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             <div className="rounded-2xl bg-[#DBCCB3] p-6 text-gray-900">
-              <div className="mb-4 aspect-[3/4] w-full rounded-lg bg-gray-300"></div>
+              <div className="mb-4 aspect-[3/4] w-full rounded-lg overflow-hidden">
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2012%20de%20nov.%20de%202025%2C%2022_06_46%20%281%29-AdaUh7KzmewRWxu2sRJg2PgyMJyDN7.png"
+                  alt="Mimando a tu gato con premios caseros"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="mb-2 text-base font-bold">Cómo entrenar a tu gato</h3>
               <p className="text-sm leading-relaxed opacity-90">
                 ¡Descubre cómo entrenar a tu gatito de una manera increíblemente sencilla y rápida, convirtiéndolo en un
